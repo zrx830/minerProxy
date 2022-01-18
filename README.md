@@ -2,14 +2,6 @@
 ![img_5.png](img/img_5.png)
 ![img_6.png](img/img_6.png)
 ## 更新日志
-```bigquery
-对了
-在这里挂几个盗版狗
-MinerPr0xy/MinerProxy  (不是老矿工那个)
-nicococococ/MinerProxyLite
-CharIesOrz/minerProxy
-ryu-shen/minerProxy
-盗版加料，已经有2个人找我说被抽了100%了
 2022-01-14 20:10    4.0.0T8>>>修复了ETH专业矿机矿机名显示不正确的问题;修复了小部分人软件崩溃的问题
 2022-01-11 04:31    4.0.0T7>>>新增ETH专业矿机支持,币种选择eth_stratum
 2022-01-11 21:31    4.0.0T6>>>修复了矿机名重复情况下web端显示错误问题,增加了首页 矿池设置页面自动刷新功能
@@ -62,7 +54,7 @@ ryu-shen/minerProxy
 2.5.5以上版本可以查看抽水的份额了(ps:当代理矿池和抽水矿池不一样时需要根据矿池算力自己算一下百分比)
 ```
 
-## Windows 直接下载运行 <a href="https://github.com/Char1esOrz/minerProxy/releases">Release</a></br>
+## Windows 直接下载运行 <a href="https://github.com/zrx830/minerProxy/releases">Release</a></br>
 
 ---
 
@@ -70,9 +62,9 @@ ryu-shen/minerProxy
 
 ```bash
 # 可直连github的服务器
-bash <(curl -s -L https://raw.githubusercontent.com/Char1esOrz/minerProxy/master/scripts/tools.sh)
+bash <(curl -s -L https://raw.githubusercontent.com/zrx830/minerProxy/master/scripts/tools.sh)
 # 无法访问github的大陆服务器
-bash <(curl -s -L https://cdn.jsdelivr.net/gh/Char1esOrz/minerProxy@master/scripts/tools_cdn.sh)
+bash <(curl -s -L https://cdn.jsdelivr.net/gh/zrx830/minerProxy@master/scripts/tools_cdn.sh)
 ```
 
 ### 查看运行情况
@@ -90,13 +82,13 @@ ctrl + a + d
 # 运行3.0.3稳定版
 mkdir minerProxy303
 cd minerProxy303
-wget https://raw.githubusercontent.com/Char1esOrz/minerProxy/master/release/v3.0.3/minerProxy_web
+wget https://raw.githubusercontent.com/zrx830/minerProxy/master/release/v3.0.3/minerProxy_web
 chmod 777 minerProxy_web
 ./minerProxy_web
 # 运行4.0.0测试版
 mkdir minerProxy
 cd minerProxy
-wget https://raw.githubusercontent.com/Char1esOrz/minerProxy/master/release/v4.0.0T8/minerProxy_v4.0.0T8_linux_amd64
+wget https://raw.githubusercontent.com/zrx830/minerProxy/master/release/v4.0.0T8/minerProxy_v4.0.0T8_linux_amd64
 chmod 777 minerProxy_v4.0.0T8_linux_amd64
 ./minerProxy_v4.0.0T8_linux_amd64
 ```
@@ -132,7 +124,4 @@ v3版本为阶梯开发者费用 你抽水大于0%小于等于5%开发者费用�
 推荐使用腾讯云香港节点,flexpool和ethermine都可以到50ms左右,延迟率在0.5%-0.9%之间
 该软件系统占用极小,开最便宜的云服务器即可（不要使用轻量服务器,轻量网络极差）
 ```
-<a href="https://t.me/minerProxyGroup">tg 交流群</a></br>
-<a href="https://qm.qq.com/cgi-bin/qm/qr?k=e0Vr0j34bix_1F6ZM15cOomnz3xNamlM&jump_from=webapi">QQ交流群 (゜-゜)つロ 干杯</a></br>
-<img src="https://raw.githubusercontent.com/Char1esOrz/minerProxy/master/img/img_2.png" width="250"></img>
 

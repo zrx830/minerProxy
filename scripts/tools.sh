@@ -24,7 +24,7 @@ install() {
 
     echo "请选择V3.0.3版本还是V4.0.0版本"
     echo "  1、V3.0.3"
-    echo "  2、V4.0.0T8"
+    echo "  2、V4.0.0T7"
     read -p "$(echo -e "请输入[1-2]：")" choose
     case $choose in
     1)
@@ -78,7 +78,7 @@ update() {
     rm -rf /root/miner_proxy/minerProxy
     echo "请选择V3.0.3版本还是V4.0.0版本"
     echo "  1、V3.0.3"
-    echo "  2、V4.0.0T8"
+    echo "  2、V4.0.0T7"
     read -p "$(echo -e "请输入[1-2]：")" choose
     case $choose in
     1)
